@@ -1,5 +1,5 @@
 import random
-
+#THE BLUEPRINT, USED TO CREATE A CLASS
 # The Coin class simulates a coin that can
 # be flipped.
 
@@ -22,6 +22,7 @@ class Coin:
             self.sideup = 'Tails'
 
     # The get_sideup method returns the value
+    #get methods (accessor methods) WANT ATTRIBUTES TO CHANGE ONLY BY GET and SET METHODS
     # referenced by sideup.
 
     def get_sideup(self):

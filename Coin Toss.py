@@ -1,9 +1,11 @@
+#IMPORTING THE BLUEPRINT, leave out .py
 import CoinClass as c
 
+#FILE WHERE WE ARE CREATING THE OBJECT
 
 # The main function.
 def main():
-       # Create an object from the Coin class.
+       ## Create an object/ instance from the Coin class. 
        my_coin = c.Coin()   # this creates an instance called 'my_coin' of the class 'Coin()'
 
        # Display the side of the coin that is facing up.
